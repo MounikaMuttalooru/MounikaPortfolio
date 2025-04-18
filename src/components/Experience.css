@@ -1,0 +1,72 @@
+.experience {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.experience h2 {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.experience-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title.company {
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.position {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.period {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-badge {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.tech-badge:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 40px 0;
+  }
+} 
