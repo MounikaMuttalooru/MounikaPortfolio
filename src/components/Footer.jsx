@@ -19,7 +19,7 @@ const Footer = () => {
               <a href="https://github.com/MounikaMuttalooru" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="www.linkedin.com/in/mounika-muttalooru789" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/mounika-muttalooru789" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
               <a href="mailto:mounika1199.m@gmail.com">
