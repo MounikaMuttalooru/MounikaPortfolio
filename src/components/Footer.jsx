@@ -9,21 +9,21 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 mb-4 mb-lg-0">
             <h5>Contact Info</h5>
-            <p><i className="fas fa-envelope"></i> your.email@example.com</p>
-            <p><i className="fas fa-phone"></i> +1 234 567 8900</p>
-            <p><i className="fas fa-map-marker-alt"></i> Your Location</p>
+            <p><i className="fas fa-envelope"></i> mounika1199.m@gmail.com</p>
+            <p><i className="fas fa-phone"></i> +1 9047297587</p>
+            <p><i className="fas fa-map-marker-alt"></i> Jacksonville,FL</p>
           </div>
           <div className="col-lg-4 mb-4 mb-lg-0">
             <h5>Social Links</h5>
             <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/MounikaMuttalooru" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="www.linkedin.com/in/mounika-muttalooru789" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-twitter"></i>
+              <a href="mailto:mounika1199.m@gmail.com">
+                <i className="fas fa-envelope"></i>
               </a>
             </div>
           </div>
