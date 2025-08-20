@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className="floating-info">
               <div className="info-item">
-                <span className="info-number">4+</span>
+                <span className="info-number">5</span>
                 <span className="info-label">Years Experience</span>
               </div>
               <div className="info-item">
@@ -45,31 +45,41 @@ const About = () => {
           <h2 className="section-title">About Me</h2>
           <div className="about-text">
             <p>
-              I am a passionate Full Stack Developer with a Master's degree in Computer Science and over 4 years of experience in developing enterprise applications. My expertise spans both modern web technologies and Microsoft .NET frameworks, allowing me to create robust, scalable solutions for complex business challenges.
+              I am a passionate Full Stack Software Engineer with a Master's degree in Information Technology and over 5 years of experience designing, developing, and deploying scalable applications across cloud, web, and mobile platforms. My expertise spans modern frameworks, cloud technologies, and DevOps practices.
             </p>
             <p>
-              As a .NET developer, I specialize in building secure, high-performance applications using C#, ASP.NET Core, and Entity Framework. I'm also proficient in front-end technologies like React and Angular, enabling me to deliver end-to-end solutions with seamless user experiences.
+              I specialize in building robust microservices, high-performance UIs, and data-intensive workflows using Python, React, FastAPI, and cloud platforms like GCP. I'm also proficient in CI/CD automation, infrastructure as code, and agile delivery methodologies.
             </p>
           </div>
           
           <div className="skills-highlight">
             <div className="skill-category">
-              <h3>Web Technologies</h3>
+              <h3>Programming & Scripting</h3>
               <div className="skill-tags">
-                <span>React</span>
+                <span>Python</span>
+                <span>Java</span>
+                <span>TypeScript</span>
                 <span>JavaScript</span>
-                <span>HTML5</span>
-                <span>CSS3</span>
               </div>
             </div>
             
             <div className="skill-category">
-              <h3>.NET Technologies</h3>
+              <h3>Frontend & Backend</h3>
               <div className="skill-tags">
-                <span>C#</span>
-                <span>ASP.NET Core</span>
-                <span>Entity Framework</span>
-                <span>SQL Server</span>
+                <span>React</span>
+                <span>Next.js</span>
+                <span>FastAPI</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+            
+            <div className="skill-category">
+              <h3>Cloud & DevOps</h3>
+              <div className="skill-tags">
+                <span>GCP</span>
+                <span>Docker</span>
+                <span>Jenkins</span>
+                <span>Terraform</span>
               </div>
             </div>
           </div>

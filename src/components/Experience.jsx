@@ -5,19 +5,19 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: 'UF Health, Jacksonville,FL',
-      position: '.Net Developer',
-      period: '2024 - Current',
-      description: 'Developed enterprise healthcare apps using ASP.NET, C#.NET, VB.NET, and MVC 4.0, covering modules like appointments, billing, and patient history',
-      technologies: ['ASP.Net','Restful APIs', 'Node.js', 'MongoDB', 'Express.js', 'Ajax','jQuery','Bootstrap','C#.NET','VB.NET','Javascript']
+      company: 'PLATEAU GRP',
+      position: 'Software Engineer',
+      period: 'Nov 2023 - Present',
+      description: 'Designed and implemented robust software solutions using object-oriented programming principles and scripting languages. Built and maintained microservice architectures within containerized environments. Established CI/CD pipelines using Jenkins and GitLab. Integrated development workflows with NPM, Cypress.io, esbuild, and Bun. Implemented code quality gates through SonarQube analysis and automated security scanning using Fortify.',
+      technologies: ['Jenkins', 'GitLab', 'NPM', 'Cypress.io', 'esbuild', 'Bun', 'Apache Tomcat', 'Maven', 'SonarQube', 'Ansible', 'JUnit5', 'React', 'Sketch', 'InVision', 'TDD']
     },
     {
       id: 2,
-      company: 'Cognizant Technology Solutions India Private Ltd.                                                                      ',
-      position: 'Software Developer',
-      period: ' Aug 2020 - July 2023',
-      description: '	Developed scalable hybrid web applications by integrating a .NET Core backend with a React.js frontend, promoting modular architecture and clean separation of concerns.',
-      technologies: ['React.JS','Redux','RESTful API', 'MongoDB','.NET Core','JavaScript', 'HTML5', 'CSS3', 'Bootstrap']
+      company: 'Guac',
+      position: 'Software Engineer',
+      period: 'Aug 2021 - Jul 2023',
+      description: 'Developed and maintained efficient ETL pipelines processing billions of data rows daily using Python. Architected customer-facing features for web applications using React, Next.js, and TypeScript. Leveraged GCP services and BigQuery to create scalable data solutions. Contributed to infrastructure as code using Terraform and Docker. Built and maintained RESTful APIs using FastAPI and contributed to React Native mobile application development.',
+      technologies: ['Python', 'FastAPI', 'React', 'Next.js', 'TypeScript', 'GCP', 'BigQuery', 'Terraform', 'Docker', 'PostgreSQL', 'React Native']
     }
   ];
 

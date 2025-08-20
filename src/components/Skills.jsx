@@ -4,38 +4,90 @@ import './Skills.css';
 const Skills = () => {
   const skillCategories = [
     {
-      category: 'Frontend',
+      category: 'Programming & Scripting',
       skills: [
+        { name: 'Python', level: 90 },
+        { name: 'Java', level: 85 },
+        { name: 'TypeScript', level: 90 },
+        { name: 'JavaScript', level: 90 },
+        { name: 'SQL', level: 85 },
+        { name: 'Shell Scripting', level: 80 }
+      ]
+    },
+    {
+      category: 'Frontend Development',
+      skills: [
+        { name: 'React', level: 90 },
+        { name: 'Next.js', level: 85 },
+        { name: 'React Native', level: 80 },
         { name: 'HTML5', level: 90 },
         { name: 'CSS3', level: 85 },
-        { name: 'JavaScript', level: 90 },
-        { name: 'Typescript', level: 90 },
-        { name: 'XML', level: 80 },
-        { name: 'React', level: 85 },
-        { name: 'Redux', level: 80 },
-        { name: 'Bootstrap', level: 85 }
+        { name: 'Sketch', level: 75 },
+        { name: 'InVision', level: 75 }
       ]
     },
     {
-      category: 'Backend',
+      category: 'Backend Development',
       skills: [
-        { name: 'Node.js', level: 95 },
-        { name: 'Express.js', level: 80 },
-        { name: 'MongoDB', level: 75 },
-        { name: 'RESTful APIs', level: 85 },
-        { name: 'MySQL', level: 75 },
-        { name: '.NET', level: 80 },
-        { name: 'Python', level: 70 },
-        { name: 'C#', level: 80 },
+        { name: 'FastAPI', level: 85 },
+        { name: 'Apache Tomcat', level: 80 },
+        { name: 'Node.js', level: 90 },
+        { name: 'Maven', level: 80 },
+        { name: 'JUnit5', level: 85 }
       ]
     },
     {
-      category: 'Tools & Others',
+      category: 'Microservices & Containers',
       skills: [
-        { name: 'Git', level: 85 },
-        { name: 'VS Code', level: 90 },
-        { name: 'npm', level: 85 },
-        { name: 'Webpack', level: 75 }
+        { name: 'Docker', level: 85 },
+        { name: 'Kubernetes', level: 80 }
+      ]
+    },
+    {
+      category: 'Cloud & Data Platforms',
+      skills: [
+        { name: 'Google Cloud Platform (GCP)', level: 85 },
+        { name: 'BigQuery', level: 80 },
+        { name: 'PostgreSQL', level: 85 }
+      ]
+    },
+    {
+      category: 'DevOps & CI/CD',
+      skills: [
+        { name: 'Jenkins', level: 85 },
+        { name: 'GitLab CI/CD', level: 80 },
+        { name: 'Terraform', level: 80 },
+        { name: 'Ansible', level: 75 },
+        { name: 'NPM', level: 90 },
+        { name: 'Bun', level: 75 },
+        { name: 'esbuild', level: 75 }
+      ]
+    },
+    {
+      category: 'Testing & QA',
+      skills: [
+        { name: 'Cypress.io', level: 80 },
+        { name: 'Test-Driven Development (TDD)', level: 85 },
+        { name: 'Unit & Integration Testing', level: 85 },
+        { name: 'SonarQube', level: 80 },
+        { name: 'Fortify Security Scanning', level: 75 }
+      ]
+    },
+    {
+      category: 'Version Control & Collaboration',
+      skills: [
+        { name: 'Git', level: 90 },
+        { name: 'Jira', level: 85 },
+        { name: 'Agile/Scrum', level: 85 }
+      ]
+    },
+    {
+      category: 'Design & UX',
+      skills: [
+        { name: 'Wireframing', level: 80 },
+        { name: 'Prototyping', level: 80 },
+        { name: 'UX Design', level: 80 },
+        { name: 'Responsive UI Development', level: 85 }
       ]
     }
   ];
@@ -46,7 +98,7 @@ const Skills = () => {
         <h2 className="text-center mb-5">Technical Skills</h2>
         <div className="row">
           {skillCategories.map((category, index) => (
-            <div key={index} className="col-lg-4 mb-4">
+            <div key={index} className="col-lg-6 col-xl-4 mb-4">
               <div className="skill-category">
                 <h3 className="category-title">{category.category}</h3>
                 <div className="skills-list">

@@ -18,11 +18,9 @@ const Home = () => {
       
       <div className="content-overlay">
         <h1>Mounika Muttalooru</h1>
-        <h2>Software Developer</h2>
+        <h2>Full Stack Software Engineer</h2>
         <p>
-          Passionate about creating innovative web solutions and turning complex problems 
-          into elegant, user-friendly applications. Specialized in modern web technologies 
-          and best development practices.
+        Full Stack Software Engineer with 5 years of experience designing, developing, and deploying scalable applications across cloud, web, and mobile platforms. Skilled in Python,Java, React, FastAPI, GCP, Docker, Kubernetes, Terraform, and CI/CD (Jenkins, GitLab, SonarQube). Experienced with PostgreSQL, BigQuery, delivering high-quality, data-driven solutions that optimize operations and enable large-scale decision making.
         </p>
         <div className="cta-buttons">
           <Link to="/resume" className="btn btn-primary">
